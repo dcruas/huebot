@@ -1,6 +1,7 @@
 {
   "name": "yolo",
   "scripts": {
+    "start": "dist/bot.js",
     "build": "rimraf ./dist && tsc",
     "dev": "nodemon -r dotenv/config ./src/bot.ts",
     "lint": "eslint src/**/*.ts",
