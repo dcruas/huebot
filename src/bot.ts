@@ -42,4 +42,4 @@ async function rm(msg: Message) {
 bot.on("ready", ready);
 bot.on("message", rm);
 
-bot.login("ODMzMzQ0Mjg4ODU5MjI2MTU0.YHw-WQ.x32XEkBEqZs5l0r9CpOFlbcJelE");
+bot.login(process.env.DISCORD_TOKEN);
